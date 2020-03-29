@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		424DAE8124312AB30007C129 /* Driver-Friendly Messaging App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driver-Friendly Messaging App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424DAE8124312AB30007C129 /* Drive-Friendly Messaging App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drive-Friendly Messaging App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		424DAE8424312AB30007C129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		424DAE8624312AB30007C129 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		424DAE8824312AB30007C129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		424DAE8224312AB30007C129 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				424DAE8124312AB30007C129 /* Driver-Friendly Messaging App.app */,
+				424DAE8124312AB30007C129 /* Drive-Friendly Messaging App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				424DAE8424312AB30007C129 /* AppDelegate.swift */,
+				42AD914A24313D8300822DC7 /* views */,
 				424DAE8624312AB30007C129 /* SceneDelegate.swift */,
-				424DAE8824312AB30007C129 /* ViewController.swift */,
 				424DAE8A24312AB30007C129 /* Main.storyboard */,
 				424DAE8D24312AB40007C129 /* Assets.xcassets */,
 				424DAE8F24312AB40007C129 /* LaunchScreen.storyboard */,
 				424DAE9224312AB40007C129 /* Info.plist */,
 			);
 			path = "Driver-Friendly Messaging App";
+			sourceTree = "<group>";
+		};
+		42AD914A24313D8300822DC7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				424DAE8824312AB30007C129 /* ViewController.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +92,7 @@
 			);
 			name = "Driver-Friendly Messaging App";
 			productName = "Driver-Friendly Messaging App";
-			productReference = 424DAE8124312AB30007C129 /* Driver-Friendly Messaging App.app */;
+			productReference = 424DAE8124312AB30007C129 /* Drive-Friendly Messaging App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,8 +299,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.luismautone.Driver-Friendly-Messaging-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luismautone.Drive-Friendly-Messaging-App";
+				PRODUCT_NAME = "Drive-Friendly Messaging App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.luismautone.Driver-Friendly-Messaging-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luismautone.Drive-Friendly-Messaging-App";
+				PRODUCT_NAME = "Drive-Friendly Messaging App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
