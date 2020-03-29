@@ -58,6 +58,5 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         generator.notificationOccurred(.success)
     }
 
-
 }
 
