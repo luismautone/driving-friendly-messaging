@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChatViewController.swift
 //  Driver-Friendly Messaging App
 //
 //  Created by Luis Mautone on 29/03/2020.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = UIColor.red
     }
 
-
 }
-
